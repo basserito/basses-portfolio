@@ -3,7 +3,7 @@ import profileImage from '../assets/img/profile.JPG'; // Replace with your actua
 
 const Profile = () => {
   return (
-    <div className="profile-container">
+    <div className="profile-container" id="profile">
       <div className="profile-text">
         <h2>Who am I?</h2>
         <p>

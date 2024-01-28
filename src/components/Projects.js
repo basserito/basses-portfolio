@@ -4,48 +4,48 @@ import Project from './Project';
 const Projects = () => {
   const projectsData = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1.',
-      technologies: 'Tech stack for Project 1.',
-      sourceCodeLink: 'https://github.com/your-username/project1',
+      title: 'Rental Manager Project',
+      description: 'A Scala application where you can manage bookings',
+      technologies: 'Scala',
+      sourceCodeLink: 'https://github.com/basserito/Rental_managing',
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2.',
-      technologies: 'Tech stack for Project 2.',
-      sourceCodeLink: 'https://github.com/your-username/project2',
+      title: 'University Database',
+      description: 'SQL database for a university course tracking system',
+      technologies: 'SQL',
+      sourceCodeLink: 'https://github.com/basserito/tietokanta_yliopistolle',
     },
 
     {
-        title: 'Project 3',
-        description: 'Description of Project 3.',
-        technologies: 'Tech Stack for Project 3',
-        sourceLink: 'https://github.com/yourusername/project3',
+        title: 'Usability Analysis for Zalando',
+        description: "Analysis of Zalando's usability through usability heuristics",
+        technologies: '',
+        sourceLink: 'https://github.com/basserito/zalando_usability_analysis/tree/main',
       },
       {
-        title: 'Project 4',
-        description: 'Description of Project 4.',
-        technologies: 'Tech Stack for Project 4',
-        sourceLink: 'https://github.com/yourusername/project4',
+        title: 'Machine Learning Project',
+        description: 'Predicting football game results using machine learning',
+        technologies: 'Python, Pandas, NumPy, Scikit-learn',
+        sourceLink: 'https://github.com/basserito/ML_predicting_football_game_wins',
       },
       {
-        title: 'Project 5',
-        description: 'Description of Project 5.',
-        technologies: 'Tech Stack for Project 5',
-        sourceLink: 'https://github.com/yourusername/project5',
+        title: 'Scala Demo',
+        description: '',
+        technologies: 'Scala, Scala Swing',
+        sourceLink: 'https://github.com/basserito/scala_demo',
       },
       {
-        title: 'Project 6',
-        description: 'Description of Project 6.',
-        technologies: 'Tech Stack for Project 6',
-        sourceLink: 'https://github.com/yourusername/project6',
+        title: 'Personal Portfolio',
+        description: '',
+        technologies: 'React, Javascript, HTML, CSS',
+        sourceLink: 'https://github.com/basserito/basses-portfolio',
       },
       // Add more project data objects as needed
     ];
 
 
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h2>Projects</h2>
       <div className="projects-list">
         {projectsData.map((project, index) => (

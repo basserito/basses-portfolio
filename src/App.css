@@ -198,7 +198,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-/* Add the following styles for the Profile component */
+/*  */
 
 .profile-container {
   display: flex;
@@ -250,7 +250,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: logo.svg;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -283,9 +283,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* Add this to your existing styles in App.css */
-
-/* Add the following styles for the Skills component */
+ 
 
 .skills-container {
   text-align: center;

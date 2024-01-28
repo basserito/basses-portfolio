@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaPython, FaNode, FaReact, FaDatabase, FaCss3, FaJs, FaCode } from 'react-icons/fa';
+import { FaPython, FaNode, FaReact, FaDatabase, FaCss3, FaJs, FaCode, FaHtml5 } from 'react-icons/fa';
 import { DiGit } from 'react-icons/di';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id= "skills">
       <h2>Skills</h2>
       <div className="skills-list">
         <div className="skill">
@@ -30,6 +30,10 @@ const Skills = () => {
         <div className="skill">
           <FaJs className="icon" />
           <p>JavaScript</p>
+        </div>
+        <div className="skill">
+          <FaHtml5 className="icon" />
+          <p>HTML</p>
         </div>
         <div className="skill">
           <FaNode className="icon" />

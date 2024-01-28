@@ -3,7 +3,6 @@ import { NavBar } from './components/NavBar';
 import Profile from './components/Profile';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -14,7 +13,6 @@ function App() {
       <Profile />
       <Skills />
       <Projects />
-      <ContactMe/>
     </div>
   );
 }
